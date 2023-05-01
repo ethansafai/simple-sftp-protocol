@@ -4,7 +4,7 @@ Uses socket programming, RSA asymmetric encryption, and AES symmetric encryption
 to secure file data transfer between a client and a server. The core functionality for
 the client, server, and encryption resides in the 'ftp' module.
 
-## Langugae
+## Language
 
 - Python 3
 
