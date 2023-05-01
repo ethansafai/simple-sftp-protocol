@@ -21,18 +21,18 @@ python3 client.py
 will launch the client in interactive mode indicated by
 
 ```bash
-ftp>> [command]
+ftp> [command]
 ```
 
 From this mode the user can issue an FTP command with the following usage:
 
-- ftp>> get [filename]
+- ftp> GET [filename]
   - This will retrieve [filename] file from the server's filesystem to the client's filesystem
-- ftp>> put [filename]
+- ftp> PUT [filename]
   - This will send the [filename] file from the client filesystem to the server's
-- ftp>> ls
+- ftp> LS
   - This will list all files in the server's filesystem
-- ftp>> quit
+- ftp>> QUIT
   - This will stop the FTP session
 
 ### Server
